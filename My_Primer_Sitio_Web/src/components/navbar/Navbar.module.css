@@ -1,0 +1,40 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #91D9FA;
+  padding: 10px 20px;
+  z-index: 999;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.logoText {
+  color: white;
+
+}
+
+.nav_links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin-left: auto;
+}
+
+.nav_item a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.nav_item a:hover {
+  text-decoration: underline;
+}
